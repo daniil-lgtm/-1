@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./JavaScript/css/style1.css" rel="stylesheet">
+    <script src="./JavaScript/JavaScript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <title>Путешествующий странник</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <img class="header__logo" src="./img/иконкалого.png" />
+            
+            <nav class="navigation">
+                <a class="navigation__item" href="#company" title="о компании">О компании</a>
+                <a class="navigation__item" href="#page-title" title="экскурсии">Экскурсии</a>
+                <a class="navigation__item" href=".//card.html" title="отзывы">Отзывы</a>
+                <a class="navigation__item" href="#footer_info" title="контакты">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="top_container" style="background-image: url(./img/image50.png);">
+            <div class="top__side" >
+                <h1 class="top__title">Путешествующий странник</h1>
+                <h2 class="top__subtitle">«Узнай о тайных местах и фактах Волжска, 
+                    о которых не напишут в путеводителе»
+                </h2>
+                <button class="header__button">
+                    <a class="excursion" href="#form">Заказать экскурсию</a>
+                </button>
+            </div>
+        </div>
+
+
+        <div id="company">
+            <div class="company">
+                <p>О компании</p>
+            </div>
+            <div class="textcols">
+                <div class="textcols-item">
+                    <p class="textcols-item_text">«Путешествующий странник» был основан в 2024 году. Наша компания организует экскурсии по Волжску и Кирову. Мы пропагандируем здоровый образ жизни и предлагаем проведение экскурсий в формате пеших прогулок по местным достопримечательностям.
+                    </p>
+                    <p class="textcols-item_text">Мы считаем, что каждая экскурсия должна быть уникальной и индивидуальной, не просто рутинный набор фактов о скучных местах. Наши клиенты ожидают интересных локаций, увлекательных рассказов от местных жителей, а также неизвестных фактов от опытных специалистов.</p>
+                </div>
+
+                <div class="textcols-item">
+                    <p class="textcols-item_text">Мы заботимся о вас, поэтому можем предложить
+                        прохладные напитки и мороженое в жару, а в холодное время года согреем вас горячим чаем и теплым
+                        пледом.</p>
+
+                    <p class="textcols-item_text">Нам доверяют люди, убедитесь в этом, прочитав наши отзывы.
+                        Выберите нас, и вы точно не пожалеете о своем выборе.</p>
+
+                    <div class="img">
+                        <img src="./icon/Vector.svg" alt="Ноги" />
+                        <img src="./icon/bi_geo-alt-fill.svg" alt="Карта" />
+                        <img src="./icon/mdi_ice-cream.svg" alt="Мороженое" />
+                        <img src="./icon/mdi_cup-full.svg" alt="Стоканчик" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="photos">
+            <div class="photos_guide">
+                <h3 class="photos_guide_title">Наши эксурсоводы</h3>
+                <a href="#"><img src="./img/Усков Василий.png"class="img">
+                    <p class="guide_title">Усков Василий Васильевич</p>
+                    <ul class="guide_text"> аккредитованный </ul>
+                    <ul class="guide_text"> гид-экскурсовод </ul>
+                    <ul class="guide_text"> с титулом «Лучший музейный</ul>
+                    <ul class="guide_text"> работник» 2022 года </ul>
+                </a>
+
+                <a href="#"><img src="./img/Петров Влад.png" class="img">
+                    <p class="guide_title">Петров Влад Исахович</p>
+                    <ul class="guide_text"> высококвалифицированный</ul>
+                    <ul class="guide_text"> аккредитованный</ul>
+                    <ul class="guide_text"> гид-экскурсовод.</ul>
+                    <ul class="guide_text"> В сфере туризма с 2011 года</ul>
+                </a>
+
+                <a href="#"><img src="./img/Степанов Руслан.png" class="img">
+                    <p class="guide_title">Степанов Руслан Альбертович</p>
+                    <ul class="guide_text"> профессиональный</ul>
+                    <ul class="guide_text"> аккредитованный</ul>
+                    <ul class="guide_text"> гид-экскурсовод с высшим </ul>
+                    <ul class="guide_text"> образованием историка</ul>
+                </a>
+            </div>
+        </div>
+
+
+       <div>
+  <div id="page-title">
+    <p class="page-title1">Выбери экскурсию и узнай</p>
+    <p class="page-title1">все тайны Волжска </p>
+  </div>
+
+  <div class="slideshow-container">
+    <!-- Первый слайд -->
+    <div class="mySlides fade" style="display: block;">
+      <div class="column_text">
+        <p class="park_name"> «Пешая экскурсия «Военная биография города Волжска»</p>
+        <p class="park__title"> Пешеходная экскурсия начинается с Обелиска воинам, погибшим в 
+            годы Великой Отечественной войны, трудившимся на Марийском целлюлозно-бумажном комбинате. 
+            Затем экскурсанты переходят в Парк Победы.</p>
+
+            <div class="horizontal-container">
+ <img class="main-foto" src="./img/image 57.png" alt="Парк" width="600">
+  <a class="slider_button" href=".//descT.html">Подробнее</a>
+            </div>
+            
+       
+      </div>
+      
+    </div>
+    <!-- Второй слайд -->
+    <div class="mySlides fade" style="display: none;">
+      <div class="column_text">
+        <p class="park_name"> «Изумительный поход» </p>
+        <p class="park__title"> Прогулки по бульварам столицы, набережной и площади</p>
+
+        <div class="horizontal-container">
+         <img class="main-foto" src="./img/image 55.png" alt="Парк" width="600">
+        <a class="slider_button" href=".//descT2.html">Подробнее</a>
+           </div>
+      </div>
+     
+    </div>
+    <!-- Третий слайд -->
+    <div class="mySlides fade" style="display: none;">
+      <div class="column_text">
+        <p class="park_name"> «Горячий источник» </p>
+        <p class="park__title"> Прогулки по горам и историческим местам</p>
+
+        <div class="horizontal-container">
+         <img class="main-foto" src="./img/Парк.png" alt="Горы" width="600">
+        <a class="slider_button" href=".//descT2.html">Подробнее</a>
+          </div>
+      </div>
+     
+    </div>
+<!-- Навигационные стрелки -->
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+<!-- Точки навигации -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+            
+  
+    </div>
+
+        <div class="form" id="form" href="#image-block__overlay">
+            <div class="questions">
+                <p class="quality_title">Закажите экскурсию или задайте вопрос</p>
+                <p class="quality_text">Оставьте контакты для заказа экскурсии, а также задайте вопросы - мы свяжемся с
+                    вами в ближайшее время</p>
+            </div>
+            <div class="container">
+                <form class="form_container" action="/action_page.php">
+                    <input type="text" placeholder="ФИО" name="ФИО" required>
+                    <input type="text" placeholder="Email" name="email" required>
+                    <input type="password" placeholder="Телефон" name="Телефон" required>
+                    <input type="password" placeholder="Дополнительная информация" name="Дополнительная информация"
+                        required>
+                    <button type="submit" class="registerbtn">Отправить</button>
+            </div>
+            </form>
+        </div>
+        </div>
+
+
+        <div class="footer_info" id="footer_info">
+            <div class="content_image">
+                <img class="works" img src="./img/image 56.png" alt="Город" width="700" />
+            </div>
+            <div class="content_info">
+                <p class="title-main">Контакты:</p>
+                <p class="first-element_address">Волжск</p>
+                <p class="second-element_address">ул. Вавилова 2</p>
+                <a href="https://www.google.com.co/maps/place/%D1%83%D0%BB.+%D0%92%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0,+2,+%D0%92%D0%BE%D0%BB%D0%B6%D1%81%D0%BA,+%D0%A0%D0%B5%D1%81%D0%BF.+%D0%9C%D0%B0%D1%80%D0%B8%D0%B9+%D0%AD%D0%BB,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+425001/@55.8643843,48.3396199,17.5z/data=!4m15!1m8!3m7!1s0x415be6c81abd37f3:0x654861b95573b1ac!2z0LMuINCS0L7Qu9C20YHQuiwg0JLQvtC70LbRgdC6LCDQoNC10YHQvy4g0JzQsNGA0LjQuSDQrdC7LCDQoNC-0YHRgdC40Y8!3b1!8m2!3d55.8722648!4d48.3568776!16s%2Fg%2F1232gc944!3m5!1s0x415be6c121c5b9c7:0x902a68ffc839db77!8m2!3d55.8632446!4d48.3425341!16s%2Fg%2F11c4pdkbvm?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D" class="map">Карта</a>
+                <p class="telephone">Телефон:</p>
+                <div class="phone">
+                    <img src="./icon/Телефон.svg" alt="телефон" />
+                    <a href="tel:8-800-555-8860">8-800-555-8860</a>
+                </div>
+                <div class="icon">
+                    <a href="https://vkvideo.ru/video-18671629_456239252" target="blank"><img class="box_vk"
+                            src="./icon/Вк.png" alt="vk"></a>
+                    <a href="https://t.me/s/overhear_volzsk" target="_blank"><img class="box_tg" src="./icon/Телеграмм.png"
+                            alt="tg"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <img class="footer__logo" src="./img/иконкалого.png" title="logo" alt="black_tattoo" />
+            <nav class="footer">
+                <a class="footer__item" href="#" title="о компании">О компании</a>
+                <a class="footer__item" href="#" title="экскурсии">Экскурсии</a>
+                <a class="footer__item" href="#" title="отзывы">Отзывы</a>
+                <a class="footer__item" href="#" title="контакты">Контакты</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
